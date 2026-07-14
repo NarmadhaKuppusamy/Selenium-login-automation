@@ -11,8 +11,8 @@ public class LoginPage {
         this.driver = driver;
     }
 
-    By username = By.id("username");
-    By password = By.id("password");
+  By username = By.id("username");
+  By password = By.id("password");
     By login = By.id("submit");
 
     public void enterUsername(String user) {
